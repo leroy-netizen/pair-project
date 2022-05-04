@@ -39,6 +39,10 @@
 }
 .form {
   background-color: antiquewhite;
+  border: 10px solid black;
+}
+.form > input {
+  min-width: 4rem;
 }
 
 /** @format */
