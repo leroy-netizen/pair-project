@@ -41,9 +41,6 @@
   background-color: antiquewhite;
   border: 10px solid black;
 }
-.form > input {
-  min-width: 4rem;
-}
 
 /** @format */
 html {
@@ -52,7 +49,10 @@ html {
 body {
   background-color: #ccd9e2;
 }
-
+.upload {
+  color: chocolate;
+  font-size: 30px;
+}
 .header-container {
   display: flex;
   width: 90%;
