@@ -1,6 +1,4 @@
-body {
-  background-color: azure;
-}
+<<<<<<< HEAD
 #search {
   padding: 6px;
   border: none;
@@ -39,4 +37,90 @@ body {
   max-width: 100px;
   margin-right: 100px;
   float: left;
+=======
+/** @format */
+html {
+	height: 100%;
+}
+body {
+	background-color: #ccd9e2;
+}
+
+.header-container {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	min-height: 70px;
+	/* background-color: #fca3b9; */
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	padding-top: 20px;
+	width: 10%;
+	height: 30px;
+	margin-left: 20px;
+	text-align: center;
+	border: #18cba1 1px solid;
+	border-radius: 10%;
+	align-items: center;
+}
+.logo p {
+	margin-bottom: 20px;
+}
+
+nav {
+	min-height: 50px;
+
+	margin-left: 50px;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	list-style-type: none;
+}
+li {
+	padding: 20px;
+	text-decoration: none;
+}
+li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.3rem;
+}
+
+/* featured section */
+.featured-title {
+	min-height: 40px;
+	align-items: center;
+	color: #fff;
+}
+.card-container {
+	display: flex;
+}
+.card {
+	width: 25%;
+	height: 400px;
+	margin: 20px;
+	padding: 10px;
+}
+.card-img {
+	height: 230px;
+	background-color: green;
+	margin-bottom: 17px;
+	background-size: 100% 100%;
+	border-radius: 10px;
+}
+.card-1 {
+	background-image: url(../images/devswag.jpg);
+}
+.card-2 {
+	background-image: url(../images/iphone2.jpg);
+}
+.card-3 {
+	background-image: url(../images/controller.jpg);
+>>>>>>> 4089b7386d6f1a5d3022c10a486ac840774b2c67
 }
