@@ -51,3 +51,35 @@ li a {
 	color: black;
 	font-size: 1.3rem;
 }
+
+/* featured section */
+.featured-title {
+	min-height: 40px;
+	align-items: center;
+	color: #fff;
+}
+.card-container {
+	display: flex;
+}
+.card {
+	width: 25%;
+	height: 400px;
+	margin: 20px;
+	padding: 10px;
+}
+.card-img {
+	height: 230px;
+	background-color: green;
+	margin-bottom: 17px;
+	background-size: 100% 100%;
+	border-radius: 10px;
+}
+.card-1 {
+	background-image: url(../images/devswag.jpg);
+}
+.card-2 {
+	background-image: url(../images/iphone2.jpg);
+}
+.card-3 {
+	background-image: url(../images/controller.jpg);
+}
