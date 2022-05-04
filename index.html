@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <title>Pair programming</title>
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Pair programming</title>
-    </head>
+  <body>
+    <div class="header-container"></div>
+    <section>
+      <div class="shop">
+        <div class="header">
+          <h1>Quicker and convenient shopping at your location</h1>
+          <h2>My location</h2>
+          <br />
 
-    <body>
-        <div class="header-container">
-
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+          <input
+            id="search"
+            type="text"
+            placeholder="enter search the nearest shopping center"
+          /><br /><br />
+          <p class="link"><a href="https://www.naivas.co.ke/">Shop now</a></p>
         </div>
-    </body>
-
+        <div class="img">
+          <img src="/assets/images/shopping-1.jpg" height="500px" />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
