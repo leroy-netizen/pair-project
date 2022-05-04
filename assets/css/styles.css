@@ -1,3 +1,43 @@
+<<<<<<< HEAD
+#search {
+  padding: 6px;
+  border: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  background-color: rgb(242, 239, 246);
+  min-width: 80%;
+  min-height: 4rem;
+}
+.shop {
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  background-color: beige;
+}
+.header > h2 {
+  color: brown;
+  font-size: 50px;
+}
+.header > h1 {
+  color: chocolate;
+  font-size: 70px;
+}
+.link {
+  color: red;
+  font-size: 20px;
+}
+.img {
+  padding: 10px;
+  max-width: 100px;
+  margin-right: 100px;
+  float: left;
+=======
 /** @format */
 html {
 	height: 100%;
@@ -82,4 +122,5 @@ li a {
 }
 .card-3 {
 	background-image: url(../images/controller.jpg);
+>>>>>>> 4089b7386d6f1a5d3022c10a486ac840774b2c67
 }
